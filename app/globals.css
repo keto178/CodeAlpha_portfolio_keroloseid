@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100..900&display=swap');
 
 
 :root {
@@ -90,3 +90,41 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+/* RTL Support */
+[dir="rtl"] body {
+    font-family: "Noto Sans Arabic", "Inter", sans-serif;
+}
+
+[dir="rtl"] .hero__title {
+    letter-spacing: 0;
+}
+
+[dir="rtl"] .hero__eyebrow {
+    letter-spacing: 0.08em;
+}
+
+[dir="rtl"] .availability-status {
+    padding-left: 0;
+    padding-right: 21px;
+}
+
+[dir="rtl"] .availability-status::before {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .site-footer__links {
+    align-items: flex-start;
+}
+
+[dir="rtl"] .site-footer__nav,
+[dir="rtl"] .site-footer__socials {
+    justify-content: flex-start;
+}
+
+[dir="rtl"] .section::after {
+    right: auto;
+    left: -3rem;
+}
+

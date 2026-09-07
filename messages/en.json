@@ -1,0 +1,114 @@
+{
+  "Metadata": {
+    "title": "Kerolos Eid | Front-End Developer - React & Next.js",
+    "titleTemplate": "%s | Kerolos Eid",
+    "description": "Front-End Developer specializing in React & Next.js. I build fast, responsive, and scalable web apps with clean code and great UX. Available for freelance and full-time roles.",
+    "keywords": "Kerolos Eid, Front-End Developer, React Developer, Next.js Developer, Frontend Portfolio, Egypt",
+    "ogTitle": "Kerolos Eid | Front-End Developer",
+    "ogDescription": "I build fast, responsive web apps with React & Next.js",
+    "ogImageAlt": "Kerolos Eid — Front-End Developer Portfolio",
+    "siteName": "Kerolos Eid Portfolio",
+    "twitterTitle": "Kerolos Eid | Front-End Developer",
+    "twitterDescription": "I build modern, responsive, high-performance web apps with React & Next.js — focused on clean code and great UX."
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "switchLanguage": "Switch language"
+  },
+  "Hero": {
+    "location": "CAIRO, EGYPT",
+    "name": "Kerolos eid",
+    "role": "Frontend_",
+    "roleLine2": "Developer",
+    "summary": "I build modern, fast, and scalable web apps using React.js, Next.js, JavaScript, and TypeScript—focused on clean code, responsive design, and great user experiences.",
+    "viewWork": "View My Work",
+    "workTogether": "Let's Work Together",
+    "coreSkills": "Core technologies",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "emailLabel": "Email"
+  },
+  "About": {
+    "eyebrow": "ABOUT KEROLOS EID",
+    "heading": "About kerolos eid",
+    "frontendTitle": "Frontend Development",
+    "frontendDesc": "I craft high-quality responsive React interfaces, landing pages, and dashboards—with fast performance and clean architecture that streamline development and long-term maintenance.",
+    "webAppsTitle": "Web Applications",
+    "webAppsDesc": "I build scalable real-world web applications such as e-commerce platforms, restaurant ordering systems, and inventory dashboards—featuring clear user flows and seamless end-to-end experiences.",
+    "cleanCodeTitle": "Clean Code & UX",
+    "cleanCodeDesc": "I focus on writing well-structured, reusable components, maintaining professional Git workflows, and delivering simple yet polished user experiences that reflect product quality and attention to detail."
+  },
+  "Projects": {
+    "selectedWork": "Selected Work",
+    "heading": "Projects",
+    "allProjects": "All projects",
+    "portfolio": "Portfolio",
+    "liveDemoLabel": "Live Demo",
+    "githubLabel": "GitHub",
+    "filterAll": "All",
+    "filterFrontend": "Frontend",
+    "filterReact": "React",
+    "filterNextjs": "Next.js",
+    "filterJavascript": "Javascript"
+  },
+  "ProjectItems": {
+    "project1Title": "FoodHub — React Food Ordering Web App",
+    "project1Desc": "A modern, responsive food ordering application built with React and Vite, featuring meal browsing, cart management, user authentication, and an account dashboard to review and track orders.",
+    "project2Title": "VibeStore — Modern E-Commerce Platform with Admin Dashboard",
+    "project2Desc": "A modern, responsive e-commerce platform built with React, featuring product discovery with filtering & search, cart and checkout flow, user authentication, and a complete admin dashboard to manage products, orders, and inventory."
+  },
+  "Blog": {
+    "eyebrow": "Insights",
+    "heading": "Latest from the blog",
+    "blogPageEyebrow": "Blog",
+    "blogPageHeading": "Blog",
+    "readArticle": "Read article >"
+  },
+  "BlogItems": {
+    "blog1Title": "1) Should I Use React or Next.js for My Project?",
+    "blog1Desc": "A practical comparison to help you choose based on SEO, performance, routing needs, and real-world product requirements.",
+    "blog1Tags": "React • Next.js • Frontend Development",
+    "blog2Title": "When Should I Use Redux Toolkit vs TanStack Query?",
+    "blog2Desc": "Understand the difference between client state and server state, and how to use each tool effectively without overengineering.",
+    "blog2Tags": "Redux Toolkit • TanStack Query • REST APIs",
+    "blog3Title": "3) How Do I Test React Components the Right Way?",
+    "blog3Desc": "A hands-on approach to testing UI behavior, forms, and user flows using Jest and React Testing Library to improve quality and reduce bugs.",
+    "blog3Tags": "Testing • Jest • React Testing Library"
+  },
+  "Contact": {
+    "eyebrow": "Contact",
+    "heading": "Contact Kerolos Eid",
+    "getInTouch": "Get in touch",
+    "description": "Let's discuss how I can help build modern, responsive, and high-performance web experiences. I'm open to Junior Front-End Developer roles, freelance projects, and collaborations, specializing in React, Next.js, and clean, maintainable code.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "downloadCv": "Download CV",
+    "availabilityLabel": "AVAILABILITY",
+    "availabilityHeading": "Open to opportunities",
+    "availabilityDesc": "Open to Junior Front-End Developer roles, freelance projects, and collaborations. I create modern, responsive, and high-performance web applications with React & Next.js — focused on clean, maintainable code, smooth user experiences, and real business value.",
+    "currentlyAvailable": "Currently available for new work",
+    "startConversation": "Start a conversation"
+  },
+  "Footer": {
+    "name": "Kerolos Eid",
+    "role": "JUNIOR FRONT-END DEVELOPER | REACT • NEXT.JS • TYPESCRIPT",
+    "location": "Cairo, Egypt",
+    "copyright": "© {year} Kerolos Eid. All rights reserved.",
+    "footerNavLabel": "Footer navigation",
+    "socialLinksLabel": "Social links"
+  },
+  "Common": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  }
+}

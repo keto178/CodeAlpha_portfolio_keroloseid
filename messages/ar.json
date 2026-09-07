@@ -1,0 +1,114 @@
+{
+  "Metadata": {
+    "title": "كيرلس عيد | مطوّر Front-End - React و Next.js",
+    "titleTemplate": "%s | كيرلس عيد",
+    "description": "مطوّر Front-End متخصص في React و Next.js. أبني تطبيقات ويب سريعة ومتجاوبة وقابلة للتوسع بأكواد نظيفة وتجربة مستخدم متميزة. متاح للعمل الحر والوظائف بدوام كامل.",
+    "keywords": "كيرلس عيد, مطور فرونت اند, React Developer, Next.js Developer, Frontend Portfolio, مصر, مطور واجهات أمامية",
+    "ogTitle": "كيرلس عيد | مطوّر Front-End",
+    "ogDescription": "أبني تطبيقات ويب سريعة ومتجاوبة باستخدام React و Next.js",
+    "ogImageAlt": "كيرلس عيد — بورتفوليو مطوّر Front-End",
+    "siteName": "بورتفوليو كيرلس عيد",
+    "twitterTitle": "كيرلس عيد | مطوّر Front-End",
+    "twitterDescription": "أبني تطبيقات ويب حديثة ومتجاوبة وعالية الأداء باستخدام React و Next.js — مع التركيز على أكواد نظيفة وتجربة مستخدم رائعة."
+  },
+  "Navbar": {
+    "home": "الرئيسية",
+    "about": "نبذة عني",
+    "projects": "المشاريع",
+    "blog": "المدوّنة",
+    "contact": "تواصل معي",
+    "downloadCv": "تحميل السيرة الذاتية",
+    "openMenu": "فتح قائمة التنقل",
+    "closeMenu": "إغلاق قائمة التنقل",
+    "switchLanguage": "تبديل اللغة"
+  },
+  "Hero": {
+    "location": "القاهرة، مصر",
+    "name": "كيرلس عيد",
+    "role": "Frontend_",
+    "roleLine2": "Developer",
+    "summary": "أبني تطبيقات ويب حديثة وسريعة وقابلة للتوسع باستخدام React.js و Next.js و JavaScript و TypeScript — مع التركيز على أكواد نظيفة وتصميم متجاوب وتجربة مستخدم رائعة.",
+    "viewWork": "عرض أعمالي",
+    "workTogether": "لنعمل معاً",
+    "coreSkills": "التقنيات الأساسية",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "emailLabel": "البريد الإلكتروني"
+  },
+  "About": {
+    "eyebrow": "نبذة عن كيرلس عيد",
+    "heading": "نبذة عن كيرلس عيد",
+    "frontendTitle": "تطوير Frontend",
+    "frontendDesc": "أصمم واجهات React عالية الجودة ومتجاوبة، من صفحات الهبوط إلى لوحات التحكم — بأداء سريع وهيكلة نظيفة تسهّل التطوير والصيانة على المدى الطويل.",
+    "webAppsTitle": "تطبيقات الويب",
+    "webAppsDesc": "أبني تطبيقات ويب واقعية وقابلة للتوسع مثل منصات التجارة الإلكترونية وأنظمة طلب الطعام ولوحات إدارة المخزون — مع تدفقات مستخدم واضحة وتجارب سلسة من البداية للنهاية.",
+    "cleanCodeTitle": "Clean Code وتجربة المستخدم",
+    "cleanCodeDesc": "أركّز على كتابة مكوّنات منظمة وقابلة لإعادة الاستخدام، والحفاظ على سير عمل احترافي مع Git، وتقديم تجارب مستخدم بسيطة ومصقولة تعكس جودة المنتج والاهتمام بالتفاصيل."
+  },
+  "Projects": {
+    "selectedWork": "أعمال مختارة",
+    "heading": "المشاريع",
+    "allProjects": "جميع المشاريع",
+    "portfolio": "أعمالي",
+    "liveDemoLabel": "معاينة مباشرة",
+    "githubLabel": "GitHub",
+    "filterAll": "الكل",
+    "filterFrontend": "Frontend",
+    "filterReact": "React",
+    "filterNextjs": "Next.js",
+    "filterJavascript": "Javascript"
+  },
+  "ProjectItems": {
+    "project1Title": "FoodHub — تطبيق ويب لطلب الطعام بـReact",
+    "project1Desc": "تطبيق حديث ومتجاوب لطلب الطعام مبني بـReact و Vite، يتضمن تصفح الوجبات وإدارة السلة وتسجيل الدخول ولوحة حساب لمراجعة وتتبع الطلبات.",
+    "project2Title": "VibeStore — منصة تجارة إلكترونية حديثة مع لوحة تحكم",
+    "project2Desc": "منصة تجارة إلكترونية حديثة ومتجاوبة مبنية بـReact، تتضمن اكتشاف المنتجات مع التصفية والبحث وتدفق السلة والدفع وتسجيل الدخول ولوحة تحكم كاملة لإدارة المنتجات والطلبات والمخزون."
+  },
+  "Blog": {
+    "eyebrow": "رؤى ومقالات",
+    "heading": "آخر المقالات",
+    "blogPageEyebrow": "المدوّنة",
+    "blogPageHeading": "المدوّنة",
+    "readArticle": "قراءة المقال >"
+  },
+  "BlogItems": {
+    "blog1Title": "١) هل أستخدم React أم Next.js لمشروعي؟",
+    "blog1Desc": "مقارنة عملية تساعدك في الاختيار بناءً على SEO والأداء واحتياجات التوجيه ومتطلبات المنتج الفعلية.",
+    "blog1Tags": "React • Next.js • Frontend Development",
+    "blog2Title": "متى أستخدم Redux Toolkit مقابل TanStack Query؟",
+    "blog2Desc": "افهم الفرق بين Client State و Server State، وكيفية استخدام كل أداة بفعالية دون تعقيد زائد.",
+    "blog2Tags": "Redux Toolkit • TanStack Query • REST APIs",
+    "blog3Title": "٣) كيف أختبر مكوّنات React بالطريقة الصحيحة؟",
+    "blog3Desc": "منهج عملي لاختبار سلوك الواجهات والنماذج وتدفقات المستخدم باستخدام Jest و React Testing Library لتحسين الجودة وتقليل الأخطاء.",
+    "blog3Tags": "Testing • Jest • React Testing Library"
+  },
+  "Contact": {
+    "eyebrow": "تواصل",
+    "heading": "تواصل مع كيرلس عيد",
+    "getInTouch": "تواصل معي",
+    "description": "لنتحدث عن كيف يمكنني المساهمة في بناء تجارب ويب حديثة ومتجاوبة وعالية الأداء. أنا متاح لوظائف Junior Front-End Developer والمشاريع الحرة والتعاون، متخصص في React و Next.js وكتابة أكواد نظيفة وقابلة للصيانة.",
+    "emailLabel": "البريد الإلكتروني",
+    "phoneLabel": "الهاتف",
+    "downloadCv": "تحميل السيرة الذاتية",
+    "availabilityLabel": "التوفر",
+    "availabilityHeading": "متاح للفرص الجديدة",
+    "availabilityDesc": "متاح لوظائف Junior Front-End Developer والمشاريع الحرة والتعاون. أبني تطبيقات ويب حديثة ومتجاوبة وعالية الأداء بـReact و Next.js — مع التركيز على أكواد نظيفة وقابلة للصيانة وتجارب مستخدم سلسة وقيمة حقيقية للأعمال.",
+    "currentlyAvailable": "متاح حالياً لعمل جديد",
+    "startConversation": "ابدأ محادثة"
+  },
+  "Footer": {
+    "name": "كيرلس عيد",
+    "role": "JUNIOR FRONT-END DEVELOPER | REACT • NEXT.JS • TYPESCRIPT",
+    "location": "القاهرة، مصر",
+    "copyright": "© {year} كيرلس عيد. جميع الحقوق محفوظة.",
+    "footerNavLabel": "تنقل التذييل",
+    "socialLinksLabel": "روابط التواصل الاجتماعي"
+  },
+  "Common": {
+    "home": "الرئيسية",
+    "about": "نبذة عني",
+    "projects": "المشاريع",
+    "blog": "المدوّنة",
+    "contact": "تواصل معي"
+  }
+}

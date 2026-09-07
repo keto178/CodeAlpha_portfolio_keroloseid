@@ -52,7 +52,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    width: 100%;
+    flex: 1;
     padding-top: 12px;
     font-size: 1.2rem;
     color: var(--color-nav-muted);
@@ -106,6 +106,21 @@
 .btn-cv__icon {
     font-size: 1.15rem;
     line-height: 1;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    position: relative;
+    top: -15px;
+}
+
+.Btn {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 /* ── Hamburger Button ── */
@@ -164,18 +179,30 @@
         padding: 18px 16px 16px;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
         gap: 10px;
     }
 
     .continer .name {
+        order: 1;
         flex: 1;
     }
 
     .site-navbar .name h3 {
         padding: 0;
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         line-height: 1;
-        white-space: normal;
+        white-space: nowrap;
+    }
+
+    .nav-controls {
+        order: 2;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        position: static;
+        top: 0;
     }
 
     .hamburger {
@@ -234,11 +261,11 @@
         display: none;
         order: 4;
         width: 100%;
-        margin: 0;
+        margin: 10px 0 0;
     }
 
     .Btn--open {
-        display: block;
+        display: flex;
     }
 
     .btn-cv {
