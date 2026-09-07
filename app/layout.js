@@ -4,7 +4,7 @@ import Footar from "./Componants/Footar/Footar";
 import SmoothScroll from "./Componants/SmoothScroll";
 
 export const metadata = {
-  metadataBase: new URL("https://keroloseid-portfolio.vercel.app"), 
+  metadataBase: new URL("https://keroloseid.com"), 
   title: {
     default: "Kerolos Eid | Front-End Developer - React & Next.js",
     template: "%s | Kerolos Eid",
@@ -14,12 +14,12 @@ export const metadata = {
   authors: [{ name: "Kerolos Eid" }],
   creator: "Kerolos Eid",
   alternates: {
-  canonical: "https://keroloseid-portfolio.vercel.app",
+  canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://keroloseid-portfolio.vercel.app",
+    url: "/",
     title: "Kerolos Eid | Front-End Developer",
     description: "I build fast, responsive web apps with React & Next.js",
     siteName: "Kerolos Eid Portfolio",

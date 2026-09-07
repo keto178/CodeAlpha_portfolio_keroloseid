@@ -1,5 +1,5 @@
 export default function robots() {
-    const baseUrl = "https://keroloseid-portfolio.vercel.app";
+    const baseUrl = "https://keroloseid.com";
 
     return {
     rules: {
