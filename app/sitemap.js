@@ -1,13 +1,20 @@
 export default function sitemap() {
     const baseUrl = "https://keroloseid.com";
+    const defaultLocale = "en";
     const locales = ["en", "ar"];
     const pages = [
         { path: "", priority: 1, changeFrequency: "monthly" },
-        { path: "/Projects", priority: 0.8, changeFrequency: "monthly" },
-        { path: "/About", priority: 0.8, changeFrequency: "monthly" },
-        { path: "/Blog", priority: 0.7, changeFrequency: "monthly" },
-        { path: "/Contact", priority: 0.7, changeFrequency: "monthly" },
+        { path: "/projects", priority: 0.8, changeFrequency: "monthly" },
+        { path: "/about", priority: 0.8, changeFrequency: "monthly" },
+        { path: "/blog", priority: 0.7, changeFrequency: "monthly" },
+        { path: "/contact", priority: 0.7, changeFrequency: "monthly" },
     ];
+
+    // localePrefix: 'as-needed' — default locale (en) has no prefix
+    const localePath = (locale, path) =>
+        locale === defaultLocale
+            ? `${baseUrl}${path}`
+            : `${baseUrl}/${locale}${path}`;
 
     const entries = [];
 
@@ -15,11 +22,11 @@ export default function sitemap() {
         for (const locale of locales) {
             const alternates = {};
             for (const altLocale of locales) {
-                alternates[altLocale] = `${baseUrl}/${altLocale}${page.path}`;
+                alternates[altLocale] = localePath(altLocale, page.path);
             }
 
             entries.push({
-                url: `${baseUrl}/${locale}${page.path}`,
+                url: localePath(locale, page.path),
                 lastModified: new Date(),
                 changeFrequency: page.changeFrequency,
                 priority: page.priority,

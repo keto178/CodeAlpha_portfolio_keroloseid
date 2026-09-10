@@ -2,9 +2,9 @@
 
 import { Link } from "@/i18n/navigation"
 import { useTranslations } from "next-intl"
-import "./Footar.css"
+import "./Footer.css"
 
-export default function Footar() {
+export default function Footer() {
     const t = useTranslations('Footer')
     const tNav = useTranslations('Common')
     const year = new Date().getFullYear()
@@ -24,10 +24,10 @@ export default function Footar() {
             <div className="site-footer__links">
                 <nav className="site-footer__nav" aria-label={t('footerNavLabel')}>
                     <Link href="/">{tNav('home')}</Link>
-                    <Link href="/About">{tNav('about')}</Link>
-                    <Link href="/Projects">{tNav('projects')}</Link>
-                    <Link href="/Blog">{tNav('blog')}</Link>
-                    <Link href="/Contact">{tNav('contact')}</Link>
+                    <Link href="/about">{tNav('about')}</Link>
+                    <Link href="/projects">{tNav('projects')}</Link>
+                    <Link href="/blog">{tNav('blog')}</Link>
+                    <Link href="/contact">{tNav('contact')}</Link>
                 </nav>
                 <nav className="site-footer__socials" aria-label={t('socialLinksLabel')}>
                     <a href="https://www.linkedin.com/in/kerolos-eid-70aa08388" target="_blank" rel="noreferrer">LinkedIn</a>

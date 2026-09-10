@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import { Link } from '@/i18n/navigation'
 import './Project.css'
-import { projects } from '../../data/projects'
+import { projects } from '@/data/projects'
 import { getTranslations } from 'next-intl/server'
 
 export default async function Project() {
@@ -11,6 +12,7 @@ export default async function Project() {
     const projectTranslations = [
         { titleKey: 'project1Title', descKey: 'project1Desc' },
         { titleKey: 'project2Title', descKey: 'project2Desc' },
+        { titleKey: 'project3Title', descKey: 'project3Desc' },
     ]
 
     return (
@@ -20,7 +22,7 @@ export default async function Project() {
                     <p>{t('selectedWork')}</p>
                     <h2>{t('heading')}</h2>
                 </div>
-                <a href="/Projects" className="home-projects__all">{t('allProjects')} <span aria-hidden="true">&#8599;</span></a>
+                <Link href="/projects" className="home-projects__all">{t('allProjects')} <span aria-hidden="true">&#8599;</span></Link>
             </div>
             <div className="home-projects__grid">
                 {projects.map((project, index) => (

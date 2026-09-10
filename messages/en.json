@@ -59,10 +59,12 @@
     "filterJavascript": "Javascript"
   },
   "ProjectItems": {
-    "project1Title": "FoodHub — React Food Ordering Web App",
-    "project1Desc": "A modern, responsive food ordering application built with React and Vite, featuring meal browsing, cart management, user authentication, and an account dashboard to review and track orders.",
-    "project2Title": "VibeStore — Modern E-Commerce Platform with Admin Dashboard",
-    "project2Desc": "A modern, responsive e-commerce platform built with React, featuring product discovery with filtering & search, cart and checkout flow, user authentication, and a complete admin dashboard to manage products, orders, and inventory."
+    "project1Title": "Interactive Photo Gallery — Unsplash REST API Integration",
+    "project1Desc": "A responsive image gallery built with Vanilla JavaScript and the Unsplash REST API. It features real-time search, category filters, and an accessible fullscreen lightbox with complete keyboard navigation and click-outside dismissal.",
+    "project2Title": "FoodHub — React Food Ordering Web App",
+    "project2Desc": "A modern, responsive food ordering application built with React and Vite, featuring meal browsing, cart management, user authentication, and an account dashboard to review and track orders.",
+    "project3Title": "VibeStore — Modern E-Commerce Platform with Admin Dashboard",
+    "project3Desc": "A modern, responsive e-commerce platform built with React, featuring product discovery with filtering & search, cart and checkout flow, user authentication, and a complete admin dashboard to manage products, orders, and inventory."
   },
   "Blog": {
     "eyebrow": "Insights",

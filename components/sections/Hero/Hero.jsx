@@ -25,9 +25,8 @@ export default async function Hero() {
             {t("summary")}
           </p>
           <div className="hero__actions">
-            <Link className="link" href="/Projects">{t("viewWork")}</Link>
-            <Link className="link" href="/Contact">{t("workTogether")}</Link>
-
+            <Link className="link" href="/projects">{t("viewWork")}</Link>
+            <Link className="link" href="/contact">{t("workTogether")}</Link>
           </div>
           <div className="hero__skills" aria-label={t("coreSkills")}>
             {skills.map((skill) => <span key={skill}>{skill}</span>)}
@@ -39,7 +38,7 @@ export default async function Hero() {
         <div className="hero__visual">
           <div className="hero__ring" />
           <div className="hero__portrait">
-            <Image src="/img.jpeg" alt="Kerolos Eid" width={900} height={1100} priority quality={90} sizes="(max-width: 540px) 82vw, (max-width: 860px) 58vw, 410px" />
+            <Image src="/images/hero.jpeg" alt="Kerolos Eid" width={900} height={1100} priority quality={90} sizes="(max-width: 540px) 82vw, (max-width: 860px) 58vw, 410px" />
           </div>
           <div className="hero__socials" aria-label={t("coreSkills")}>
             <a href={socialLinks.github} target="_blank" rel="noreferrer" aria-label={t("githubLabel")}><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.2-3.37-1.2-.46-1.2-1.11-1.51-1.11-1.51-.91-.64.07-.63.07-.63 1 .08 1.53 1.06 1.53 1.06.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.11.64-1.36-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.05 1.03-2.78-.1-.26-.45-1.31.1-2.74 0 0 .84-.28 2.75 1.06a9.2 9.2 0 0 1 5 0c1.9-1.34 2.74-1.06 2.74-1.06.56 1.43.21 2.48.1 2.74.64.73 1.03 1.65 1.03 2.78 0 3.96-2.34 4.83-4.57 5.09.36.32.68.92.68 1.86 0 1.34-.01 2.42-.01 2.75 0 .27.18.6.69.49A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z" /></svg></a>

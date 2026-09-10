@@ -248,4 +248,8 @@
         justify-content: center;
         padding: 12px 14px;
     }
+
+    .availability-cta {
+        width: 100%;
+    }
 }

@@ -1,17 +1,17 @@
-import Hero from "../Componants/Hero/Hero";
-import Project from "../Componants/Project/Project";
-import About from "../Componants/ِAbout/About";
-import Blog from "../Componants/Blog/Blog";
-import Contact from "../Componants/Contact/Contact";
+import Hero from "@/components/sections/Hero/Hero";
+import Project from "@/components/sections/ProjectsSection/Project";
+import AboutSection from "@/components/sections/AboutSection/AboutSection";
+import BlogSection from "@/components/sections/BlogSection/BlogSection";
+import ContactSection from "@/components/sections/ContactSection/ContactSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      <AboutSection />
       <Project />
-      <Blog />
-      <Contact />
+      <BlogSection />
+      <ContactSection />
     </>
   );
 }

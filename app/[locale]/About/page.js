@@ -1,3 +1,3 @@
-import About from "../../Componants/ِAbout/About";
+import AboutSection from "@/components/sections/AboutSection/AboutSection";
 
-export default About;
+export default AboutSection;

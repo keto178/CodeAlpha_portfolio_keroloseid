@@ -1,8 +1,8 @@
 import React from 'react'
-import './About.css'
+import './AboutSection.css'
 import { getTranslations } from 'next-intl/server'
 
-export default async function About() {
+export default async function AboutSection() {
     const t = await getTranslations('About')
 
     return (

@@ -1,6 +1,6 @@
-import { Blogs } from "../../data/Blogs";
+import { Blogs } from "@/data/Blogs";
 import { getTranslations } from "next-intl/server";
-import "../../Blog/Blog.css";
+import "@/components/sections/BlogSection/BlogSection.css";
 
 export default async function BlogPage() {
   const t = await getTranslations("Blog");

@@ -1,7 +1,7 @@
 import "../globals.css";
-import Navbar from "../Componants/Navbar/Navbar";
-import Footar from "../Componants/Footar/Footar";
-import SmoothScroll from "../Componants/SmoothScroll";
+import Navbar from "@/components/common/Navbar/Navbar";
+import Footer from "@/components/common/Footer/Footer";
+import SmoothScroll from "@/components/common/SmoothScroll";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages, getTranslations} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
@@ -42,7 +42,7 @@ export async function generateMetadata({params}) {
       siteName: t('siteName'),
       images: [
         {
-          url: '/og-image.png',
+          url: '/images/og-image.png',
           width: 1200,
           height: 630,
           alt: t('ogImageAlt'),
@@ -53,7 +53,7 @@ export async function generateMetadata({params}) {
       card: 'summary_large_image',
       title: t('twitterTitle'),
       description: t('twitterDescription'),
-      images: ['/og-image.png'],
+      images: ['/images/og-image.png'],
     },
     robots: {
       index: true,
@@ -79,7 +79,7 @@ export default async function LocaleLayout({children, params}) {
           <SmoothScroll />
           <Navbar />
           {children}
-          <Footar />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

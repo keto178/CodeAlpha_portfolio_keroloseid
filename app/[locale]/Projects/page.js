@@ -1,6 +1,6 @@
-import "../../Projects/Projects-page.css";
+import "./projects-page.css";
 import Image from "next/image";
-import { projects } from "../../data/projects";
+import { projects } from "@/data/projects";
 import { getTranslations } from "next-intl/server";
 
 export default async function Projects() {
@@ -23,6 +23,10 @@ export default async function Projects() {
     {
       titleKey: "project2Title",
       descKey: "project2Desc",
+    },
+    {
+      titleKey: "project3Title",
+      descKey: "project3Desc",
     },
   ];
 

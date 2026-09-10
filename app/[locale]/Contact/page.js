@@ -1,4 +1,4 @@
-import Contact from "../../Componants/Contact/Contact";
-import "../../Contact/Contact.css";
+import ContactSection from "@/components/sections/ContactSection/ContactSection";
+import "@/components/sections/ContactSection/ContactSection.css";
 
-export default Contact;
+export default ContactSection;

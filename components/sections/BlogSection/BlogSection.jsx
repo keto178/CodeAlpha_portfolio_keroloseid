@@ -1,7 +1,7 @@
-import './Blog.css'
+import './BlogSection.css'
 import { getTranslations } from 'next-intl/server'
 
-export default async function Blog() {
+export default async function BlogSection() {
     const t = await getTranslations('Blog')
     const tItems = await getTranslations('BlogItems')
 

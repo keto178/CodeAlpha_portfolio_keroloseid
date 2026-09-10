@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
-import "../Navbar/Navbar.css"
+import "./Navbar.css"
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher'
 
 export default function Navbar() {
@@ -11,7 +11,7 @@ export default function Navbar() {
     const t = useTranslations('Navbar')
 
     return (
-    <div>
+    <header>
         <nav className="site-navbar">
             <div className="continer">
                 <div className="name">
@@ -20,10 +20,10 @@ export default function Navbar() {
 
                 <div className={`nav-link${isOpen ? ' nav-link--open' : ''}`}>
                     <Link href="/" onClick={() => setIsOpen(false)}>{t('home')}</Link>
-                    <Link href="/About" onClick={() => setIsOpen(false)}>{t('about')}</Link>
-                    <Link href="/Projects" onClick={() => setIsOpen(false)}>{t('projects')}</Link>
-                    <Link href="/Blog" onClick={() => setIsOpen(false)}>{t('blog')}</Link>
-                    <Link href="/Contact" onClick={() => setIsOpen(false)}>{t('contact')}</Link>
+                    <Link href="/about" onClick={() => setIsOpen(false)}>{t('about')}</Link>
+                    <Link href="/projects" onClick={() => setIsOpen(false)}>{t('projects')}</Link>
+                    <Link href="/blog" onClick={() => setIsOpen(false)}>{t('blog')}</Link>
+                    <Link href="/contact" onClick={() => setIsOpen(false)}>{t('contact')}</Link>
                 </div>
 
                 <div className="nav-controls">
@@ -42,13 +42,13 @@ export default function Navbar() {
                 </div>
 
                 <div className={`Btn${isOpen ? ' Btn--open' : ''}`}>
-                    <Link href="/Kerolos_Eid_FrontEnd_Developer_CV.pdf" className="btn-cv" onClick={() => setIsOpen(false)}>
+                    <Link href="/cv.pdf" className="btn-cv" onClick={() => setIsOpen(false)}>
                         <span>{t('downloadCv')}</span>
                         <span className="btn-cv__icon" aria-hidden="true">↓</span>
                     </Link>
                 </div>
             </div>
         </nav>
-    </div>
+    </header>
     )
 }
