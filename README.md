@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Personal Portfolio Website — Kerolos Eid
 
-## Getting Started
+A modern, high-performance, and fully responsive personal portfolio designed to showcase my frontend development projects, technical skill set, and professional journey.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo & Links
+- **Live Preview:** [keroloseid.com](https://www.keroloseid.com/en)
+- **Repository:** [GitHub Source Code](https://github.com/keto178/keroloseid-portfolio)
+- **LinkedIn:** [keroloseid159](https://www.linkedin.com/in/keroloseid159/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Key Features
+- **Bilingual Experience (i18n):** Seamless routing and content localization supporting both English and Arabic.
+- **Dynamic Project Showcase:** Interactive portfolio gallery highlighting live demos, source repositories, and technical stacks.
+- **Modern Interactive UI/UX:** Polished micro-interactions, smooth scrolling, and subtle transitions tailored for maximum engagement.
+- **Fully Responsive Architecture:** Mobile-first layout fully adapted to smartphones, tablets, laptops, and ultra-wide screens.
+- **Direct Contact Channel:** Functional integration enabling recruiters and clients to send inquiries directly.
+- **Performance & SEO Optimization:** Built with clean semantic markup, fast load times, and structured metadata for search engines.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack & Tools
+- **Core:** HTML5, Modern CSS3 / Utility Frameworks, Modern JavaScript (ES6+).
+- **Architecture:** Component-driven structure, modular styling, and optimized asset loading.
+- **Deployment & Hosting:** Vercel / Cloud Infrastructure.
+- **Version Control:** Git & GitHub.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  👨‍💻 Author
+Kerolos Eid
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Website: keroloseid.com
 
-## Deploy on Vercel
+LinkedIn: linkedin.com/in/keroloseid159
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GitHub: @keto178
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Email: kerolos.eid159@gmail.com
