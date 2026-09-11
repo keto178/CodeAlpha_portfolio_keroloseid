@@ -20,7 +20,7 @@ export default async function ContactSection() {
                 <a href="https://wa.me/201270233635" target="_blank" rel="noreferrer" className="contact-row"><span className="contact-label">WhatsApp</span><span className="contact-value">WhatsApp</span></a>
                 <a href="https://www.linkedin.com/in/kerolos-eid-70aa08388" target="_blank" rel="noreferrer" className="contact-row"><span className="contact-label">LinkedIn</span><span className="contact-value">LinkedIn</span></a>
                 <a href="https://github.com/keto178" target="_blank" rel="noreferrer" className="contact-row"><span className="contact-label">GitHub</span><span className="contact-value">GitHub</span></a>
-                <Link href="/cv.pdf" className='btn-cv'>{t('downloadCv')}</Link>
+                <Link href="/Kerolos_Eid_FrontEnd_Developer_CV.pdf" className='btn-cv'>{t('downloadCv')}</Link>
             </div>
             <div className="item2 availability-card">
                 <p className="availability-label">{t('availabilityLabel')}</p>

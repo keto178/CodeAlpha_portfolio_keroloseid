@@ -42,7 +42,7 @@ export default function Navbar() {
                 </div>
 
                 <div className={`Btn${isOpen ? ' Btn--open' : ''}`}>
-                    <Link href="/cv.pdf" className="btn-cv" onClick={() => setIsOpen(false)}>
+                    <Link href="/Kerolos_Eid_FrontEnd_Developer_CV.pdf" className="btn-cv" onClick={() => setIsOpen(false)}>
                         <span>{t('downloadCv')}</span>
                         <span className="btn-cv__icon" aria-hidden="true">↓</span>
                     </Link>
