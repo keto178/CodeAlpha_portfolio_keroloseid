@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website — Kerolos Eid
 
-A modern, high-performance, and fully responsive personal portfolio designed to showcase my frontend development projects, technical skill set, and professional journey.
+A modern, high-performance, and responsive personal portfolio web application built with **Next.js** and **React**. Developed to showcase my frontend development projects, technical skills, and professional journey.
 
 ---
 
@@ -12,20 +12,20 @@ A modern, high-performance, and fully responsive personal portfolio designed to 
 ---
 
 ## ✨ Key Features
-- **Bilingual Experience (i18n):** Seamless routing and content localization supporting both English and Arabic.
-- **Dynamic Project Showcase:** Interactive portfolio gallery highlighting live demos, source repositories, and technical stacks.
-- **Modern Interactive UI/UX:** Polished micro-interactions, smooth scrolling, and subtle transitions tailored for maximum engagement.
-- **Fully Responsive Architecture:** Mobile-first layout fully adapted to smartphones, tablets, laptops, and ultra-wide screens.
-- **Direct Contact Channel:** Functional integration enabling recruiters and clients to send inquiries directly.
-- **Performance & SEO Optimization:** Built with clean semantic markup, fast load times, and structured metadata for search engines.
+- **Bilingual Architecture (i18n):** Internationalized dynamic routing supporting both English and Arabic.
+- **Interactive Project Showcase:** Dynamic catalog displaying live previews, source repositories, and technical stacks.
+- **Modern UI/UX:** Responsive components, smooth micro-interactions, and accessible typography.
+- **Optimized Performance & SEO:** Leveraging Next.js Server-Side Rendering (SSR), Static Site Generation (SSG), and optimized assets (`next/image`, `next/font`).
+- **Direct Contact Channel:** Functional integration enabling direct inquiries from recruiters and clients.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
-- **Core:** HTML5, Modern CSS3 / Utility Frameworks, Modern JavaScript (ES6+).
-- **Architecture:** Component-driven structure, modular styling, and optimized asset loading.
-- **Deployment & Hosting:** Vercel / Cloud Infrastructure.
-- **Version Control:** Git & GitHub.
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Library:** [React](https://react.dev/)
+- **Core:** HTML5, Modern CSS3, Modern JavaScript (ES6+)
+- **Deployment & Hosting:** [Vercel](https://vercel.com/)
+- **Version Control:** Git & GitHub
 
 
   👨‍💻 Author
